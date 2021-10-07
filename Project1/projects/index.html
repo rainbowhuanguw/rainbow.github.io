@@ -1,0 +1,116 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="../nav.css">
+        <link rel="stylesheet" href="../grid.css">
+        <link rel="stylesheet" href="../flex.css">
+        <link rel="stylesheet" href="../overall.css">
+
+        <style> 
+            .box ul li{
+                text-align: left;
+                font-size: larger;
+            }
+
+            .box ul {
+                columns: 2;
+            }
+
+            ul li {
+                list-style: square;
+                color: darkgreen;
+            }
+
+            .b1 {
+                grid-area: box1;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <div class="bar">
+            <ul>
+                <li><a href="../">home</a></li>
+                <li><a href="../about/">about</a></li>
+                <li class="active"><a href="./">project</a> </li>
+                <li><a href="../contact/">contact</a></li>
+            </ul>
+        </div>
+
+        <div class ="text">
+            <p> Hope you enjoy my projects below, <strong> hover</strong> over each icon to see the introduction, <strong>click</strong> on the icon to check out the code,  </p>
+        </div>
+        <div class="flex-container">
+            <div class="b1 box"> 
+                    <a href="https://github.com/rainbowhuanguw/ElectionGuard-verifier-python">
+                        <img class="pic" src="../images/electionguard.png"/>
+                        <div class="middle">ElectionGuard</div>
+                    </a>
+                    <div class="text box" id="b1_text"> 
+                        <p>An election data verifier to ensure election validity. </p>
+                        <ul> 
+                            <li>Python</li>
+                            <li>Object-oriented Design</li>
+                            <li>UML diagrams</li>
+                            <li>encryption</li>
+                        </ul>
+                    </div> 
+                </div>
+
+            
+            <div class="b2 box" id="b2_text">
+                <a href="https://github.com/rainbowhuanguw/TicketToRide">
+                    <img class="icon" src="../images/train.png"/>
+                    <div class="middle">Ticket To Ride</div>
+                </a>
+                <div class="text box"> 
+                    <p>A text simulation of the classic board game, Ticket to Ride. </p>
+                    <ul> 
+                        <li>Java</li>
+                        <li>Design Patterns</li>
+                        <li>agile development</li>
+                        <li>unit testing</li>
+                    </ul>
+                </div> 
+            </div>
+
+            <div class="b3 box">
+                <a href="https://github.com/rainbowhuanguw/mini_shell">
+                    <img class="icon" src="../images/shell.png"/> 
+                    <div class="middle">mini shell</div>
+                </a>
+                <div class="text box" id="b3_text"> 
+                    <p>A simple simulation of shell.</p>
+                    <ul> 
+                        <li>C</li>
+                        <li>Emacs</li>
+                        <li>data structures</li>
+                    </ul>
+                </div> 
+            </div>
+
+
+            <div class="b4 box">
+                <a href="https://github.com/rainbowhuanguw/YelpReview">
+                    <img class="icon" src="../images/cafe.png"/> 
+                    <div class="middle">Yelp restaurant review analysis</div>
+                </a>
+
+            <div class="text box" id="b4_text"> 
+                <p>Compares gaps between review sentiments and ratings.</p>
+                <ul> 
+                    <li>Python</li>
+                    <li>Pandas</li>
+                    <li>NumPy</li>
+                    <li>NLTK</li>
+                    <li>PyTorch</li>
+                    <li>Gensim</li>
+                </ul>
+            </div> 
+            </div>
+
+        </div>
+
+        
+    </body>
+</html>

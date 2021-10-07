@@ -1,0 +1,40 @@
+.bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #32373B;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+
+.bar ul li {
+    display: inline;
+    float: left;
+    font-size: large;
+}
+
+.bar ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.bar li a:hover {
+    background-color: #4A5859;
+}
+
+.active {
+    background-color: #C83E4D;
+}
+
